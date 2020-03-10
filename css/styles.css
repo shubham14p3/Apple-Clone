@@ -91,13 +91,17 @@ body {
 }
 
 #search input {
-  background-color: inherit;
-  height: 20px;
-  width: 106px;
-  margin: 6px 0 0 17px;
-  border-radius: 10px;
+    background-color: inherit;
+    height: 20px;
+    width: 106px;
+    margin: 6px 0 0 17px;
+    border-radius: 10px;
 }
 
+#search input:focus {
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+  }
 .nav li {
   display: inline-block;
   width:110px;
