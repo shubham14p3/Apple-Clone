@@ -129,12 +129,12 @@ body {
   }
   
   /*
- *****************************************
- * Section Header =main-background
- *****************************************
-*/
-
-.main-section {
+   *****************************************
+   * Section Header =main-background
+   *****************************************
+  */
+  
+  .main-section {
     height: 538px;
     position: relative;
     overflow: hidden;
@@ -162,12 +162,12 @@ body {
   }
   
   /*
- *****************************************
- * Section Header =columns
- *****************************************
-*/
-
-.columns {
+   *****************************************
+   * Section Header =columns
+   *****************************************
+  */
+  
+  .columns {
     position: relative;
     display: inline-block;
     overflow: hidden;
@@ -204,3 +204,75 @@ body {
     background: url('../images/promo_supplier_responsibility_2x.jpeg') no-repeat center 0;
     background-size: 364px 200px;
   }
+  
+  /*
+   *****************************************
+   * Section Header =footer
+   *****************************************
+  */
+  
+  p, ul {
+    margin: 8px 0;
+  }
+  
+  footer {
+    width: 954px;
+    margin: 8px auto 20px auto;
+  }
+  
+  .left, .right {
+    display: inline-block;
+    width: 460px;
+    vertical-align: top;
+    color: #6e6e6e;
+    font-size: .7em;
+    line-height: 1.2;
+  }
+  
+   .left a, .right a {
+    position: relative;
+    color: #08c;
+    text-decoration: none;
+  }
+  
+  .left a:hover, .right a:hover {
+    text-decoration: underline;
+  }
+  
+  .left {
+  /*  border: 1px solid red;*/
+    margin-right: 15px;
+  }
+  
+  .right {
+  /*  border: 1px solid black;*/
+    margin-left: 15px;
+  }
+  
+  footer ul {
+    padding: 0;
+  }
+  
+  footer li {
+    display: inline;
+  }
+  
+  footer li:after {
+    content: '|';
+  }
+  
+  footer li:last-child:after {
+    content: '';
+  }
+  
+  #icon {
+    position: absolute;
+    z-index: 1;
+    top: -3px;
+    left: 4px;
+  }
+  
+  .last-line {
+    display: inline-block;
+  }
+  
