@@ -85,7 +85,7 @@ body {
   margin-top: 6px;
   border-radius: 12px;
   box-shadow:
-      inset rgba(0, 0, 0, 0.6) 0 2px 1px,
+        inset rgba(0, 0, 0, 0.6) 0 2px 1px,
     rgba(255, 255, 255, 0.2) 0 1px 0;
   background-color: transparent;
   align-items: center;
@@ -116,19 +116,23 @@ footer li {
   width: 110px;
   height: 32px;
   vertical-align: top;
-  background-image:
-  -ms-linear-gradient ( bottom, #8f8b8d 0%, #787878 50%, #5e5e5e 51%, #707070 100%);
-  background-image:
-  -moz-linear-gradient ( bottom, #8f8b8d 0%, #787878 50%, #5e5e5e 51%, #707070 100%);
-  background-image:
-  -o-linear-gradient ( bottom, #8f8b8d 0%, #787878 50%, #5e5e5e 51%, #707070 100%);
-  background-image:
-  -webkit-gradient ( linear, left bottom, left top, color-stop(0, #8f8b8d), color-stop(50, #787878), color-stop(51, #5e5e5e), color-stop(100, #707070));
-  background-image:
-  -webkit-linear-gradient ( bottom, #8f8b8d 0%, #787878 50%, #5e5e5e 51%, #707070 100%);
-  background-image:
-  linear-gradient ( to top,
+  background-image: 
+  -ms-linear-gradient ( bottom,
   #8f8b8d 0%, #787878 50%, #5e5e5e 51%, #707070 100%);
+  background-image: 
+  -moz-linear-gradient ( bottom,
+  #8f8b8d 0%, #787878 50%, #5e5e5e 51%, #707070 100%);
+  background-image: 
+  -o-linear-gradient ( bottom,
+  #8f8b8d 0%, #787878 50%, #5e5e5e 51%, #707070 100%);
+  background-image: 
+  -webkit-gradient ( linear, left bottom, left top, color-stop(0, #8f8b8d), color-stop(50, #787878), color-stop(51, #5e5e5e), color-stop(100, #707070));
+  background-image: 
+  -webkit-linear-gradient ( bottom,
+  #8f8b8d 0%, #787878 50%, #5e5e5e 51%, #707070 100%);
+  background-image: 
+        linear-gradient ( to top,
+        #8f8b8d 0%, #787878 50%, #5e5e5e 51%, #707070 100%);
   border: 1px solid #5e5f60;
 }
 
@@ -138,7 +142,7 @@ li:hover {
 
 .nav li:first-of-type {
   border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px; 
+  border-bottom-left-radius: 3px;
 }
 
 .nav li:last-of-type {
