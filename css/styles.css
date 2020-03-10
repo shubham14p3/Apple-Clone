@@ -1,0 +1,130 @@
+/*
+ *****************************************
+ * Section Header =container
+ *****************************************
+*/
+
+body {
+    /*border: 1px solid red;*/
+    margin: auto;
+    min-width: 1048px;
+    max-width: 1440px;
+  }
+  
+  .container {
+    width: 100%;
+  }
+  
+  /*
+   *****************************************
+   * Section Header =navbar
+   *****************************************
+  */
+  
+  .nav-wrapper {
+    margin: auto;
+    width: 1070px; 
+    padding-top: 15px;
+  }
+  
+  .nav {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .icons {
+    margin: auto;
+    margin-top: 10px;
+  }
+  
+  #logo {
+    background: url('../images/globalnav_text.svg') no-repeat -71px -3px;
+    width: 18px;
+    height: 22px;
+    margin-top: 3px;
+  }
+  
+  #store {
+    background: url('../images/globalnav_text.svg') no-repeat -64px -38px;
+    width: 31px;
+    height: 12px;
+  }
+  
+  #mac {
+    background: url('../images/globalnav_text.svg') no-repeat -68px -68px;
+    width: 24px;
+    height: 12px;
+  }
+  
+  #ipod {
+    background: url('../images/globalnav_text.svg') no-repeat -67px -98px;
+    width: 26px;
+    height: 12px;
+  }
+  
+  #iphone {
+    background: url('../images/globalnav_text.svg') no-repeat -60px -128px;
+    width: 41px;
+    height: 12px;
+  }
+  
+  #ipad {
+    background: url('../images/globalnav_text.svg') no-repeat -68px -158px;
+    width: 24px;
+    height: 13px;
+  }
+  
+  #itunes {
+    background: url('../images/globalnav_text.svg') no-repeat -62px -188px;
+    width: 37px;
+    height: 12px;
+  }
+  
+  #support {
+    background: url('../images/globalnav_text.svg') no-repeat -56px -218px;
+    width: 48px;
+    height: 15px;
+  }
+  
+  #search {
+    width: 140px;
+  }
+  
+  #search input {
+    background-color: inherit;
+    height: 20px;
+    width: 106px;
+    margin: 6px 0 0 17px;
+    border-radius: 10px;
+  }
+  
+  .nav li {
+    display: inline-block;
+    width:110px;
+    height: 32px;
+    vertical-align: top; 
+    /* IE10+ */ 
+    background-image: -ms-linear-gradient(bottom, #8F8B8D 0%, #787878 50%, #5E5E5E 51%, #707070 100%);
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(bottom, #8F8B8D 0%, #787878 50%, #5E5E5E 51%, #707070 100%);
+    /* Opera */ 
+    background-image: -o-linear-gradient(bottom, #8F8B8D 0%, #787878 50%, #5E5E5E 51%, #707070 100%);
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #8F8B8D), color-stop(50, #787878), color-stop(51, #5E5E5E), color-stop(100, #707070));
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(bottom, #8F8B8D 0%, #787878 50%, #5E5E5E 51%, #707070 100%);
+    /* W3C Markup */ 
+    background-image: linear-gradient(to top, #8F8B8D 0%, #787878 50%, #5E5E5E 51%, #707070 100%);
+    border: 1px solid #5E5F60;
+  }
+  
+  .nav li:first-of-type {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px; 
+  }
+  
+  .nav li:last-of-type {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+  
