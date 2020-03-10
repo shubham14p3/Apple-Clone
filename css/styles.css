@@ -1,5 +1,4 @@
 body {
-  /*border: 1px solid red;*/
   margin: auto;
   min-width: 1048px;
   max-width: 1440px;
@@ -117,47 +116,12 @@ footer li {
   width: 110px;
   height: 32px;
   vertical-align: top; 
-  /* IE10+ */ 
-  background-image: -ms-linear-gradient(bottom,
+
+background-image: -ms-linear-gradient(bottom,
   #8f8b8d 0%,
   #787878 50%,
   #5e5e5e 51%,
-  #707070 100%);
-  /* Mozilla Firefox */ 
-  background-image: -moz-linear-gradient(bottom,
-  #8f8b8d 0%,
-  #787878 50%,
-  #5e5e5e 51%,
-  #707070 100%);
-  /* Opera */ 
-  background-image: -o-linear-gradient(bottom,
-  #8f8b8d 0%,
-  #787878 50%,
-  #5e5e5e 51%,
-  #707070 100%);
-  /* Webkit (Safari/Chrome 10) */ 
-  background-image: -webkit-gradient(linear,
-  left bottom, left top, color-stop(0,
-  #8f8b8d),
-  color-stop(50,
-  #787878),
-  color-stop(51,
-  #5e5e5e),
-  color-stop(100,
-  #707070));
-  /* Webkit (Chrome 11+) */ 
-  background-image: -webkit-linear-gradient(bottom,
-  #8f8b8d 0%,
-  #787878 50%,
-  #5e5e5e 51%,
-  #707070 100%);
-  /* W3C Markup */ 
-  background-image: linear-gradient(to top,
-  #8f8b8d 0%,
-  #787878 50%,
-  #5e5e5e 51,
-  #707070 100%);
-  border: 1px solid #5e5f60;
+  #707070 100%); 
 }
 
 li:hover {
@@ -178,7 +142,6 @@ li:hover {
   height: 538px;
   position: relative;
   overflow: hidden;
-  /*background-color: blue;*/
   background: url('../images/your_verse_hero.jpeg') no-repeat center -768px;
 }
 
@@ -285,13 +248,13 @@ footer ul {
 }
 
 footer li:after {
-  {
+ {
     content: '|';
   }
 }
 
 footer li:last-child:after {
-  {
+ {
   content: '';
   }
 }
