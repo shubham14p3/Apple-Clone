@@ -1,0 +1,68 @@
+<li>
+    <form>
+        <input type="search" name="search" id="search" placeholder="🔍">
+</form>
+</li>
+
+li:hover {
+    background-image: linear-gradient(gray, darkgray);
+  }
+
+  li:hover {
+    background-image: linear-gradient(gray, darkgray);
+  }
+
+    /* Search box styling, will grow on focus
+#search {
+    margin: center;
+    width: 106px;
+    height: 18px;
+    border: none;
+    margin-top: 6px;
+    border-radius: 12px;
+    box-shadow:
+      inset rgba(0, 0, 0, 0.6) 0 2px 1px,
+      rgba(255, 255, 255, 0.2) 0 1px 0;
+    background-color: transparent;
+    padding-left: 0px;
+    transition: all 0;
+    transition: all 0.3s ease-in-out;
+  }
+  
+   #search:focus {
+    width: 180px;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #search:focus + .fa-search {
+    color: gray;
+    transition: 0.3s ease-in-out;
+  }
+   */
+
+   #search {
+    margin: center;
+    width: 106px;
+    height: 18px;
+    border: none;
+    margin-top: 6px;
+    border-radius: 12px;
+    box-shadow:
+      inset rgba(0, 0, 0, 0.6) 0 2px 1px,
+      rgba(255, 255, 255, 0.2) 0 1px 0;
+    background-color: transparent;
+    padding-left: 0px;
+    transition: all 0;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #search input {
+    background-color: inherit;
+    height: 20px;
+    width: 106px;
+    margin: 6px 0 0 17px;
+    border-radius: 10px;
+  }
+  
+  /*
