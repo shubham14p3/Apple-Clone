@@ -88,7 +88,7 @@ body {
 
 #search {
   width: 140px;
-}
+ }
 
 #search input {
   margin: center;
@@ -104,11 +104,19 @@ body {
   align-items: center;   
   transition: all 0;
   transition: all 0.3s ease-in-out;
-}
+  }
 
 #search input:focus {
   width: 135px;
   background-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.fa-search {
+  font-size: 0.7em;
+  position: relative;
+  left: +7px;
+  top: -18px;
   transition: all 0.3s ease-in-out;
 }
 
