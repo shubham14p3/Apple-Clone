@@ -31,8 +31,8 @@ body {
     padding: 0;
     margin: 0;
   }
-  
-  .icons {
+
+.icons {
     margin: auto;
     margin-top: 10px;
   }
@@ -86,18 +86,6 @@ body {
     height: 15px;
   }
   
-  #search {
-    width: 140px;
-  }
-  
-  #search input {
-    background-color: inherit;
-    height: 20px;
-    width: 106px;
-    margin: 6px 0 0 17px;
-    border-radius: 10px;
-  }
-  
   .nav li {
     display: inline-block;
     width:110px;
@@ -128,6 +116,10 @@ body {
     border-bottom-right-radius: 3px;
   }
   
+  li:hover {
+    background-image: linear-gradient(gray, darkgray);
+  }
+
   /*
    *****************************************
    * Section Header =main-background
@@ -276,3 +268,47 @@ body {
     display: inline-block;
   }
   
+
+
+
+
+
+  /* Search box styling, will grow on focus */
+#search {
+    margin: center;
+    width: 140px;
+    height: 18px;
+    border: none;
+    margin-top: 6px;
+    border-radius: 12px;
+    box-shadow:
+      inset rgba(0, 0, 0, 0.6) 0 2px 1px,
+      rgba(255, 255, 255, 0.2) 0 1px 0;
+    background-color: transparent;
+    padding-left: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+   #search:focus {
+    width: 180px;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #search:focus + .fa-search {
+    color: gray;
+    left: -190px;
+    transition: 0.3s ease-in-out;
+  }
+
+  #search {
+    width: 140px;
+  }
+  
+  #search input {
+    background-color: inherit;
+    height: 20px;
+    width: 106px;
+    margin: 6px 0 0 17px;
+    border-radius: 10px;
+  }
