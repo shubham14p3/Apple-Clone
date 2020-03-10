@@ -161,3 +161,46 @@ body {
     margin-top: -32px;
   }
   
+  /*
+ *****************************************
+ * Section Header =columns
+ *****************************************
+*/
+
+.columns {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    height: 200px;
+    width: 25%;
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+            box-sizing: border-box;
+       -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0px auto;
+  }
+  
+  .columns a {
+    text-decoration: none;
+  }
+  
+  .one {
+    background: url('../images/promo_iphone5s_2x.jpeg') no-repeat center 0;
+    background-size: 364px 200px;
+  }
+  
+  .two {
+    background: url('../images/promo_iphone5c_2x.jpeg') no-repeat center 0;
+    background-size: 364px 200px;
+  }
+  .three {
+    background: url('../images/promo_30_years.jpeg') no-repeat center 0;
+    background-size: 364px 200px;
+  }
+  
+  .four {
+    border-right: none;
+    background: url('../images/promo_supplier_responsibility_2x.jpeg') no-repeat center 0;
+    background-size: 364px 200px;
+  }
