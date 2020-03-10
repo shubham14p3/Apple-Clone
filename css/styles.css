@@ -84,13 +84,11 @@ body {
   border: none;
   margin-top: 6px;
   border-radius: 12px;
-  box-shadow:
-	  inset rgba(0, 0, 0, 0.6) 0 2px 1px,
-	  rgba(255, 255, 255, 0.2) 0 1px 0;
+  box-shadow: inset rgba(0, 0, 0, 0.6) 0 2px 1px, rgba(255, 255, 255, 0.2) 0 1px 0;
   background-color: transparent;
   align-items: center;
   transition: all 0;
-  transition: all 0.3s ease-in-out;  
+  transition: all 0.3s ease-in-out;
 }
 
 #search input:focus {
