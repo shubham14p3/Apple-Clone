@@ -128,3 +128,36 @@ body {
     border-bottom-right-radius: 3px;
   }
   
+  /*
+ *****************************************
+ * Section Header =main-background
+ *****************************************
+*/
+
+.main-section {
+    height: 538px;
+    position: relative;
+    overflow: hidden;
+    /*background-color: blue;*/
+    background: url('../images/your_verse_hero.jpeg') no-repeat center -768px;
+  }
+  
+  header {
+    text-align: center;
+    margin-top: 105px;
+  }
+  
+  #second-image {
+    margin-top: -17px;
+  }
+  
+  .your-verse {
+    margin-top: 30px;
+    height: 32px;
+    overflow: hidden;
+  }
+  
+  #underline-image:hover {
+    margin-top: -32px;
+  }
+  
